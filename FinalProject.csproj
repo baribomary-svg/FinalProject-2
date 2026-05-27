@@ -64,12 +64,6 @@
     <Compile Include="CustomerAccount.Designer.cs">
       <DependentUpon>CustomerAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="HIstory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HIstory.Designer.cs">
-      <DependentUpon>HIstory.cs</DependentUpon>
-    </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,9 +161,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoardCustomer.resx">
       <DependentUpon>DashBoardCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HIstory.resx">
-      <DependentUpon>HIstory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.cs</DependentUpon>
