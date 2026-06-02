@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerAccount.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,12 +87,6 @@
     </Compile>
     <Compile Include="DashBoardCustomer.Designer.cs">
       <DependentUpon>DashBoardCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminDashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminDashboard.Designer.cs">
-      <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="CashierDashboard.cs">
       <SubType>Form</SubType>
