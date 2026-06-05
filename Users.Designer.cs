@@ -1,4 +1,6 @@
-﻿namespace FinalProject
+﻿using System.Runtime.CompilerServices;
+
+namespace FinalProject
 {
     partial class Users
     {
@@ -29,8 +31,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Users));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnUsers = new Guna.UI2.WinForms.Guna2Button();
@@ -53,11 +55,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.dgvUsers = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DateAdded = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -67,7 +64,7 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnShowPassword = new System.Windows.Forms.Button();
             this.btnDeleteEmployee = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAddCashier = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
@@ -370,29 +367,23 @@
             // 
             this.dgvUsers.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvUsers.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LimeGreen;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightGreen;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LimeGreen;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.LightGreen;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.LastName,
-            this.FirstName,
-            this.Username,
-            this.DateAdded});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightGreen;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvUsers.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightGreen;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvUsers.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvUsers.GridColor = System.Drawing.SystemColors.Control;
             this.dgvUsers.Location = new System.Drawing.Point(293, 302);
             this.dgvUsers.Name = "dgvUsers";
@@ -400,36 +391,6 @@
             this.dgvUsers.RowHeadersVisible = false;
             this.dgvUsers.Size = new System.Drawing.Size(842, 296);
             this.dgvUsers.TabIndex = 87;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.Width = 150;
-            // 
-            // LastName
-            // 
-            this.LastName.HeaderText = "Last Name";
-            this.LastName.Name = "LastName";
-            this.LastName.Width = 150;
-            // 
-            // FirstName
-            // 
-            this.FirstName.HeaderText = "First Name";
-            this.FirstName.Name = "FirstName";
-            this.FirstName.Width = 150;
-            // 
-            // Username
-            // 
-            this.Username.HeaderText = "Useiname";
-            this.Username.Name = "Username";
-            this.Username.Width = 200;
-            // 
-            // DateAdded
-            // 
-            this.DateAdded.HeaderText = "Date Added";
-            this.DateAdded.Name = "DateAdded";
-            this.DateAdded.Width = 200;
             // 
             // guna2GradientPanel2
             // 
@@ -514,7 +475,7 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.Controls.Add(this.btnShowPassword);
             this.guna2Panel1.Controls.Add(this.btnDeleteEmployee);
-            this.guna2Panel1.Controls.Add(this.btnAddCashier);
+            this.guna2Panel1.Controls.Add(this.btnAddEmployee);
             this.guna2Panel1.Controls.Add(this.txtPassword);
             this.guna2Panel1.Controls.Add(this.label9);
             this.guna2Panel1.Controls.Add(this.txtUsername);
@@ -555,22 +516,23 @@
             this.btnDeleteEmployee.Size = new System.Drawing.Size(160, 35);
             this.btnDeleteEmployee.TabIndex = 74;
             this.btnDeleteEmployee.Text = "Delete Employee";
+            this.btnDeleteEmployee.Click += new System.EventHandler(this.btnDeleteEmployee_Click);
             // 
-            // btnAddCashier
+            // btnAddEmployee
             // 
-            this.btnAddCashier.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddCashier.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddCashier.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAddCashier.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddCashier.FillColor = System.Drawing.Color.DarkGreen;
-            this.btnAddCashier.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAddCashier.ForeColor = System.Drawing.Color.White;
-            this.btnAddCashier.Location = new System.Drawing.Point(20, 147);
-            this.btnAddCashier.Name = "btnAddCashier";
-            this.btnAddCashier.Size = new System.Drawing.Size(160, 35);
-            this.btnAddCashier.TabIndex = 73;
-            this.btnAddCashier.Text = "Add Cashier/Employee";
-            this.btnAddCashier.Click += new System.EventHandler(this.btnAddCashier_Click);
+            this.btnAddEmployee.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddEmployee.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddEmployee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddEmployee.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnAddEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAddEmployee.ForeColor = System.Drawing.Color.White;
+            this.btnAddEmployee.Location = new System.Drawing.Point(20, 147);
+            this.btnAddEmployee.Name = "btnAddEmployee";
+            this.btnAddEmployee.Size = new System.Drawing.Size(160, 35);
+            this.btnAddEmployee.TabIndex = 73;
+            this.btnAddEmployee.Text = "Add Cashier/Employee";
+            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddCashier_Click);
             // 
             // txtPassword
             // 
@@ -763,11 +725,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Username;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DateAdded;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox txtLastName;
@@ -779,7 +736,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2Button btnDeleteEmployee;
-        private Guna.UI2.WinForms.Guna2Button btnAddCashier;
+        private Guna.UI2.WinForms.Guna2Button btnAddEmployee;
         private System.Windows.Forms.Button btnShowPassword;
     }
 }

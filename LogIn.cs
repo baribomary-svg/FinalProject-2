@@ -6,51 +6,37 @@ namespace FinalProject
 {
     public partial class LogIn : Form
     {
-        // =========================================
-        // SQL CONNECTION
-        // =========================================
+       
         SqlConnection conn = new SqlConnection(
         @"Data Source=localhost\SQLEXPRESS;
         Initial Catalog=Final_DB;
         Integrated Security=True;
         TrustServerCertificate=True");
 
-        // =========================================
-        // CONSTRUCTOR
-        // =========================================
+       
         public LogIn()
         {
             InitializeComponent();
 
-            // =====================================
-            // PASSWORD HIDDEN DEFAULT
-            // =====================================
+            
             txtPassword.PasswordChar = '•';
             txtConfirm.PasswordChar = '•';
 
-            // =====================================
-            // BUTTON TEXT
-            // =====================================
+        
             btnTogglePassword.Text = "🚫👁";
             btnToggleConfirm.Text = "🚫👁";
         }
 
-        // =========================================
-        // FORM LOAD
-        // =========================================
+      
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        // =========================================
-        // REGISTER BUTTON
-        // =========================================
+      
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            // =====================================
-            // VALIDATION
-            // =====================================
+           
             if (txtFirstName.Text == "" ||
                 txtLastName.Text == "" ||
                 txtEmail.Text == "" ||
@@ -67,9 +53,7 @@ namespace FinalProject
                 return;
             }
 
-            // =====================================
-            // PASSWORD MATCH
-            // =====================================
+        
             if (txtPassword.Text != txtConfirm.Text)
             {
                 MessageBox.Show(
@@ -81,9 +65,7 @@ namespace FinalProject
                 return;
             }
 
-            // =====================================
-            // PASSWORD LENGTH
-            // =====================================
+         
             if (txtPassword.Text.Length < 8)
             {
                 MessageBox.Show(
@@ -99,9 +81,7 @@ namespace FinalProject
             {
                 conn.Open();
 
-                // =====================================
-                // CHECK DUPLICATE USERNAME
-                // =====================================
+               
                 string checkUser =
                 "SELECT COUNT(*) FROM Users WHERE username=@username";
 
@@ -128,9 +108,7 @@ namespace FinalProject
                     return;
                 }
 
-                // =====================================
-                // INSERT ACCOUNT
-                // =====================================
+               
                 string query = @"
                 INSERT INTO Users
                 (
@@ -206,9 +184,7 @@ namespace FinalProject
             }
         }
 
-        // =========================================
-        // GO TO SIGN IN
-        // =========================================
+ 
         private void lblSignIn_Click_1(object sender, EventArgs e)
         {
             SignIn signin = new SignIn();
@@ -218,9 +194,7 @@ namespace FinalProject
             this.Hide();
         }
 
-        // =========================================
-        // TOGGLE PASSWORD
-        // =========================================
+       
         private void btnTogglePassword_Click(object sender, EventArgs e)
         {
             if (txtPassword.PasswordChar == '•')
@@ -237,9 +211,7 @@ namespace FinalProject
             }
         }
 
-        // =========================================
-        // TOGGLE CONFIRM PASSWORD
-        // =========================================
+       
         private void btnToggleConfirm_Click(object sender, EventArgs e)
         {
             if (txtConfirm.PasswordChar == '•')

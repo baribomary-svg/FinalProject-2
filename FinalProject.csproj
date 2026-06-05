@@ -70,6 +70,12 @@
     <Compile Include="CustomerAccount.Designer.cs">
       <DependentUpon>CustomerAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,23 +112,11 @@
     <Compile Include="Orders.Designer.cs">
       <DependentUpon>Orders.cs</DependentUpon>
     </Compile>
-    <Compile Include="POS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="POS.Designer.cs">
-      <DependentUpon>POS.cs</DependentUpon>
-    </Compile>
     <Compile Include="Products.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Profile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Profile.Designer.cs">
-      <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="Sales.cs">
       <SubType>Form</SubType>
@@ -174,14 +168,8 @@
     <EmbeddedResource Include="Orders.resx">
       <DependentUpon>Orders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="POS.resx">
-      <DependentUpon>POS.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
-      <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
