@@ -122,7 +122,7 @@ namespace FinalProject
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(11, 495);
+            this.pictureBox10.Location = new System.Drawing.Point(16, 388);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(25, 25);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,11 +138,11 @@ namespace FinalProject
             this.btnUsers.FillColor = System.Drawing.Color.Transparent;
             this.btnUsers.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsers.ForeColor = System.Drawing.Color.White;
-            this.btnUsers.Location = new System.Drawing.Point(43, 487);
+            this.btnUsers.Location = new System.Drawing.Point(48, 378);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(217, 40);
             this.btnUsers.TabIndex = 73;
-            this.btnUsers.Text = "Users";
+            this.btnUsers.Text = "     Users";
             this.btnUsers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // guna2Separator2
@@ -154,7 +154,7 @@ namespace FinalProject
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.Location = new System.Drawing.Point(9, 471);
+            this.guna2Separator1.Location = new System.Drawing.Point(9, 538);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(251, 10);
             this.guna2Separator1.TabIndex = 70;
@@ -168,9 +168,9 @@ namespace FinalProject
             this.btnLogout.FillColor = System.Drawing.Color.Transparent;
             this.btnLogout.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(42, 533);
+            this.btnLogout.Location = new System.Drawing.Point(48, 559);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(221, 40);
+            this.btnLogout.Size = new System.Drawing.Size(217, 40);
             this.btnLogout.TabIndex = 66;
             this.btnLogout.Text = "    Logout";
             this.btnLogout.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -178,7 +178,7 @@ namespace FinalProject
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(11, 540);
+            this.pictureBox9.Location = new System.Drawing.Point(16, 568);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(25, 25);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -675,9 +675,11 @@ namespace FinalProject
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.dgvUsers);
             this.Controls.Add(this.panel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Users";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Users_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();

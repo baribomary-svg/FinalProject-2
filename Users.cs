@@ -230,5 +230,10 @@ namespace FinalProject
                 }
             }
         }
+
+        private void Users_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

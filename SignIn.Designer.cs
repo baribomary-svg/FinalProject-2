@@ -124,7 +124,7 @@
             // 
             this.btnSignIn.BackColor = System.Drawing.Color.DarkGreen;
             this.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSignIn.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignIn.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignIn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnSignIn.Location = new System.Drawing.Point(126, 324);
             this.btnSignIn.Name = "btnSignIn";

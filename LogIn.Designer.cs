@@ -211,7 +211,7 @@ namespace FinalProject
             // 
             this.btnCreateAccount.BackColor = System.Drawing.Color.DarkGreen;
             this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateAccount.Font = new System.Drawing.Font("Tw Cen MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateAccount.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnCreateAccount.Location = new System.Drawing.Point(142, 430);
             this.btnCreateAccount.Name = "btnCreateAccount";
