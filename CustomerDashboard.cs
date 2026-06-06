@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class CustomerAccount : Form
+    public partial class CustomerDashboard : Form
     {
-        public CustomerAccount()
+        public CustomerDashboard()
         {
             InitializeComponent();
         }
@@ -89,7 +89,9 @@ namespace FinalProject
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            frmShop shop = new frmShop();
+            shop.Show();
+            this.Hide();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)

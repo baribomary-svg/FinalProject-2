@@ -676,7 +676,8 @@ namespace FinalProject
             this.Controls.Add(this.dgvUsers);
             this.Controls.Add(this.panel2);
             this.Name = "Users";
-            this.Text = "Users";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();

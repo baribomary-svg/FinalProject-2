@@ -68,7 +68,6 @@
             this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.lblLowStockItems = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.dgvRecentTransactions = new System.Windows.Forms.DataGridView();
             this.ItemID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -83,6 +82,7 @@
             this.flpOrderList = new System.Windows.Forms.FlowLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -378,11 +378,11 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Tw Cen MT Condensed", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label23.Location = new System.Drawing.Point(15, 1);
+            this.label23.Location = new System.Drawing.Point(4, 1);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(123, 34);
+            this.label23.Size = new System.Drawing.Size(237, 34);
             this.label23.TabIndex = 50;
-            this.label23.Text = "Dashboard";
+            this.label23.Text = "CASHIER DASHBOARD";
             // 
             // guna2ShadowPanel1
             // 
@@ -532,17 +532,6 @@
             this.label14.TabIndex = 2;
             this.label14.Text = "Low Stocks Items";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label4.Location = new System.Drawing.Point(287, 443);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 22);
-            this.label4.TabIndex = 74;
-            this.label4.Text = "Recent Transactions";
-            // 
             // dgvRecentTransactions
             // 
             this.dgvRecentTransactions.BackgroundColor = System.Drawing.SystemColors.Control;
@@ -687,19 +676,31 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "Orders";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DarkGreen;
+            this.label8.Location = new System.Drawing.Point(287, 443);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(149, 23);
+            this.label8.TabIndex = 59;
+            this.label8.Text = "Recent Transactions";
+            // 
             // CashierDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(1184, 611);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.listViewOrders);
             this.Controls.Add(this.chartSales);
             this.Controls.Add(this.dgvRecentTransactions);
             this.Controls.Add(this.guna2ShadowPanel4);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2ShadowPanel2);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.panel2);
@@ -708,6 +709,7 @@
             this.Name = "CashierDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TransparencyKey = System.Drawing.Color.Black;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -772,7 +774,6 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel4;
         private System.Windows.Forms.Label lblLowStockItems;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dgvRecentTransactions;
         private System.Windows.Forms.DataGridViewTextBoxColumn ItemID;
         private System.Windows.Forms.DataGridViewTextBoxColumn CustomerName;
@@ -787,5 +788,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.FlowLayoutPanel flpOrderList;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label8;
     }
 }

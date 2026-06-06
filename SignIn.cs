@@ -139,8 +139,8 @@ namespace FinalProject
                 // =====================================
                 else if (role == "Customer")
                 {
-                    DashBoardCustomer customer =
-                    new DashBoardCustomer();
+                    CustomerDashboard customer =
+                    new CustomerDashboard();
 
                     customer.Show();
 
