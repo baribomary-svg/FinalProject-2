@@ -37,5 +37,20 @@ namespace FinalProject
         {
 
         }
+
+        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2NumericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

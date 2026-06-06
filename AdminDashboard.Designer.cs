@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.dgvStockProducts = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -78,7 +78,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnInventory = new Guna.UI2.WinForms.Guna2Button();
             this.btnProducts = new Guna.UI2.WinForms.Guna2Button();
-            this.btnTransactions = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTransaction = new Guna.UI2.WinForms.Guna2Button();
             this.btnSales = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -127,30 +127,30 @@
             // 
             // dgvStockProducts
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvStockProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvStockProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvStockProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvStockProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvStockProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStockProducts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Product,
             this.Category,
             this.Stock,
             this.Status});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvStockProducts.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvStockProducts.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvStockProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvStockProducts.Location = new System.Drawing.Point(17, 33);
             this.dgvStockProducts.Name = "dgvStockProducts";
@@ -203,7 +203,7 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.label4);
             this.guna2CustomGradientPanel1.Controls.Add(this.label2);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.LightGray;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(312, 69);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(200, 78);
@@ -267,7 +267,7 @@
             this.guna2CustomGradientPanel2.Controls.Add(this.label10);
             this.guna2CustomGradientPanel2.Controls.Add(this.label11);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2CirclePictureBox2);
-            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.LightGray;
+            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(518, 69);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(200, 78);
@@ -331,7 +331,7 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.label13);
             this.guna2CustomGradientPanel3.Controls.Add(this.label14);
             this.guna2CustomGradientPanel3.Controls.Add(this.guna2CirclePictureBox3);
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.LightGray;
+            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(724, 69);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(200, 78);
@@ -395,7 +395,7 @@
             this.guna2CustomGradientPanel4.Controls.Add(this.label19);
             this.guna2CustomGradientPanel4.Controls.Add(this.label20);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2CirclePictureBox4);
-            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.LightGray;
+            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(930, 69);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(200, 78);
@@ -462,16 +462,16 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(14, 33);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(823, 143);
             this.chart1.TabIndex = 65;
             this.chart1.Text = "chart1";
@@ -504,7 +504,7 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.btnInventory);
             this.panel2.Controls.Add(this.btnProducts);
-            this.panel2.Controls.Add(this.btnTransactions);
+            this.panel2.Controls.Add(this.btnTransaction);
             this.panel2.Controls.Add(this.btnSales);
             this.panel2.Controls.Add(this.btnDashboard);
             this.panel2.Controls.Add(this.pictureBox3);
@@ -665,21 +665,21 @@
             this.btnProducts.Text = "    Products";
             this.btnProducts.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // btnTransactions
+            // btnTransaction
             // 
-            this.btnTransactions.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTransactions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTransactions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTransactions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTransactions.FillColor = System.Drawing.Color.Transparent;
-            this.btnTransactions.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransactions.ForeColor = System.Drawing.Color.White;
-            this.btnTransactions.Location = new System.Drawing.Point(48, 240);
-            this.btnTransactions.Name = "btnTransactions";
-            this.btnTransactions.Size = new System.Drawing.Size(218, 40);
-            this.btnTransactions.TabIndex = 58;
-            this.btnTransactions.Text = "    Transaction";
-            this.btnTransactions.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTransaction.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTransaction.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTransaction.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTransaction.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTransaction.FillColor = System.Drawing.Color.Transparent;
+            this.btnTransaction.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransaction.ForeColor = System.Drawing.Color.White;
+            this.btnTransaction.Location = new System.Drawing.Point(48, 240);
+            this.btnTransaction.Name = "btnTransaction";
+            this.btnTransaction.Size = new System.Drawing.Size(218, 40);
+            this.btnTransaction.TabIndex = 58;
+            this.btnTransaction.Text = "    Transaction";
+            this.btnTransaction.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // btnSales
             // 
@@ -940,7 +940,7 @@
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button btnInventory;
         private Guna.UI2.WinForms.Guna2Button btnProducts;
-        private Guna.UI2.WinForms.Guna2Button btnTransactions;
+        private Guna.UI2.WinForms.Guna2Button btnTransaction;
         private Guna.UI2.WinForms.Guna2Button btnSales;
         private Guna.UI2.WinForms.Guna2Button btnDashboard;
         private System.Windows.Forms.PictureBox pictureBox3;

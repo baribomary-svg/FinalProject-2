@@ -49,5 +49,10 @@ namespace FinalProject
         {
 
         }
+
+        private void CashierDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

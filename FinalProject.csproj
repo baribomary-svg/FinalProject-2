@@ -70,11 +70,11 @@
     <Compile Include="CustomerDashboard.Designer.cs">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmShop.cs">
+    <Compile Include="Shop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmShop.Designer.cs">
-      <DependentUpon>frmShop.cs</DependentUpon>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
     </Compile>
     <Compile Include="Inventory.cs">
       <SubType>Form</SubType>
@@ -147,8 +147,8 @@
     <EmbeddedResource Include="CustomerDashboard.resx">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmShop.resx">
-      <DependentUpon>frmShop.cs</DependentUpon>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.cs</DependentUpon>

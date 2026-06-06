@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class frmShop : Form
+    public partial class Shop : Form
     {
-        public frmShop()
+        public Shop()
         {
             InitializeComponent();
         }

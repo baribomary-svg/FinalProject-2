@@ -162,11 +162,13 @@ namespace FinalProject
         // =========================================
         private void label5_Click(object sender, EventArgs e)
         {
-            LogIn signup = new LogIn();
-
-            signup.Show();
-
             this.Hide();
+
+            SignIn signin = new SignIn();
+
+            signin.Show();
+            signin.Activate();
+            signin.BringToFront();
         }
 
         // =========================================

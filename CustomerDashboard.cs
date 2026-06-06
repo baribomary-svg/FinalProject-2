@@ -89,7 +89,7 @@ namespace FinalProject
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            frmShop shop = new frmShop();
+            Shop shop = new Shop();
             shop.Show();
             this.Hide();
         }

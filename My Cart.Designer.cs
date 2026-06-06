@@ -38,11 +38,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnInventory = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProfile = new Guna.UI2.WinForms.Guna2Button();
             this.btnProducts = new Guna.UI2.WinForms.Guna2Button();
-            this.btnTransactions = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSales = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMyOrders = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMyCart = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -77,11 +77,11 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.btnInventory);
+            this.panel1.Controls.Add(this.btnProfile);
             this.panel1.Controls.Add(this.btnProducts);
-            this.panel1.Controls.Add(this.btnTransactions);
-            this.panel1.Controls.Add(this.btnSales);
-            this.panel1.Controls.Add(this.btnDashboard);
+            this.panel1.Controls.Add(this.btnMyOrders);
+            this.panel1.Controls.Add(this.btnMyCart);
+            this.panel1.Controls.Add(this.btnHome);
             this.panel1.Controls.Add(this.pictureBox8);
             this.panel1.Controls.Add(this.pictureBox11);
             this.panel1.Controls.Add(this.pictureBox12);
@@ -182,21 +182,21 @@
             this.label9.TabIndex = 61;
             this.label9.Text = "VOLT";
             // 
-            // btnInventory
+            // btnProfile
             // 
-            this.btnInventory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnInventory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnInventory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnInventory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnInventory.FillColor = System.Drawing.Color.Transparent;
-            this.btnInventory.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInventory.ForeColor = System.Drawing.Color.White;
-            this.btnInventory.Location = new System.Drawing.Point(48, 332);
-            this.btnInventory.Name = "btnInventory";
-            this.btnInventory.Size = new System.Drawing.Size(217, 40);
-            this.btnInventory.TabIndex = 60;
-            this.btnInventory.Text = "    Profile";
-            this.btnInventory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnProfile.FillColor = System.Drawing.Color.Transparent;
+            this.btnProfile.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfile.ForeColor = System.Drawing.Color.White;
+            this.btnProfile.Location = new System.Drawing.Point(48, 332);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(217, 40);
+            this.btnProfile.TabIndex = 60;
+            this.btnProfile.Text = "    Profile";
+            this.btnProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // btnProducts
             // 
@@ -214,53 +214,53 @@
             this.btnProducts.Text = "    Products";
             this.btnProducts.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // btnTransactions
+            // btnMyOrders
             // 
-            this.btnTransactions.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTransactions.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTransactions.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTransactions.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTransactions.FillColor = System.Drawing.Color.Transparent;
-            this.btnTransactions.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransactions.ForeColor = System.Drawing.Color.White;
-            this.btnTransactions.Location = new System.Drawing.Point(48, 240);
-            this.btnTransactions.Name = "btnTransactions";
-            this.btnTransactions.Size = new System.Drawing.Size(218, 40);
-            this.btnTransactions.TabIndex = 58;
-            this.btnTransactions.Text = "    My Orders";
-            this.btnTransactions.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMyOrders.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMyOrders.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMyOrders.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMyOrders.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMyOrders.FillColor = System.Drawing.Color.Transparent;
+            this.btnMyOrders.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMyOrders.ForeColor = System.Drawing.Color.White;
+            this.btnMyOrders.Location = new System.Drawing.Point(48, 240);
+            this.btnMyOrders.Name = "btnMyOrders";
+            this.btnMyOrders.Size = new System.Drawing.Size(218, 40);
+            this.btnMyOrders.TabIndex = 58;
+            this.btnMyOrders.Text = "    My Orders";
+            this.btnMyOrders.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // btnSales
+            // btnMyCart
             // 
-            this.btnSales.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSales.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSales.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSales.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSales.FillColor = System.Drawing.Color.Transparent;
-            this.btnSales.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSales.ForeColor = System.Drawing.Color.White;
-            this.btnSales.Location = new System.Drawing.Point(48, 194);
-            this.btnSales.Name = "btnSales";
-            this.btnSales.Size = new System.Drawing.Size(217, 40);
-            this.btnSales.TabIndex = 57;
-            this.btnSales.Text = "    My Cart";
-            this.btnSales.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMyCart.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMyCart.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMyCart.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMyCart.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMyCart.FillColor = System.Drawing.Color.Transparent;
+            this.btnMyCart.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMyCart.ForeColor = System.Drawing.Color.White;
+            this.btnMyCart.Location = new System.Drawing.Point(48, 194);
+            this.btnMyCart.Name = "btnMyCart";
+            this.btnMyCart.Size = new System.Drawing.Size(217, 40);
+            this.btnMyCart.TabIndex = 57;
+            this.btnMyCart.Text = "    My Cart";
+            this.btnMyCart.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // btnDashboard
+            // btnHome
             // 
-            this.btnDashboard.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDashboard.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDashboard.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDashboard.FillColor = System.Drawing.Color.Transparent;
-            this.btnDashboard.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Location = new System.Drawing.Point(48, 148);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(217, 40);
-            this.btnDashboard.TabIndex = 56;
-            this.btnDashboard.Text = "    Home";
-            this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.Transparent;
+            this.btnHome.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Location = new System.Drawing.Point(48, 148);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(217, 40);
+            this.btnHome.TabIndex = 56;
+            this.btnHome.Text = "    Home";
+            this.btnHome.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // pictureBox8
             // 
@@ -428,11 +428,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private Guna.UI2.WinForms.Guna2Button btnInventory;
+        private Guna.UI2.WinForms.Guna2Button btnProfile;
         private Guna.UI2.WinForms.Guna2Button btnProducts;
-        private Guna.UI2.WinForms.Guna2Button btnTransactions;
-        private Guna.UI2.WinForms.Guna2Button btnSales;
-        private Guna.UI2.WinForms.Guna2Button btnDashboard;
+        private Guna.UI2.WinForms.Guna2Button btnMyOrders;
+        private Guna.UI2.WinForms.Guna2Button btnMyCart;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
