@@ -149,7 +149,7 @@ namespace FinalProject
             this.lblSignIn.BackColor = System.Drawing.Color.Transparent;
             this.lblSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSignIn.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.lblSignIn.Location = new System.Drawing.Point(247, 469);
+            this.lblSignIn.Location = new System.Drawing.Point(246, 475);
             this.lblSignIn.Name = "lblSignIn";
             this.lblSignIn.Size = new System.Drawing.Size(47, 13);
             this.lblSignIn.TabIndex = 22;
@@ -211,7 +211,7 @@ namespace FinalProject
             // 
             this.btnCreateAccount.BackColor = System.Drawing.Color.DarkGreen;
             this.btnCreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateAccount.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateAccount.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnCreateAccount.Location = new System.Drawing.Point(142, 430);
             this.btnCreateAccount.Name = "btnCreateAccount";
@@ -253,7 +253,7 @@ namespace FinalProject
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(116, 469);
+            this.label9.Location = new System.Drawing.Point(115, 475);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(132, 13);
             this.label9.TabIndex = 29;

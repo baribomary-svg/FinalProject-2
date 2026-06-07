@@ -63,22 +63,22 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlLowStock = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlOutStock = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlInStock = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlTotalProducts = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -88,13 +88,13 @@
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.txtAddStock = new Guna.UI2.WinForms.Guna2Button();
+            this.txtDeductStock = new Guna.UI2.WinForms.Guna2Button();
             this.lblCurrentStock = new System.Windows.Forms.Label();
             this.guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label37 = new System.Windows.Forms.Label();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.txtRemove = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel6 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -120,6 +120,7 @@
             this.CATEGORY = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CURRENTSTOCK = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label28 = new System.Windows.Forms.Label();
+            this.txtAdd = new Guna.UI2.WinForms.Guna2Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -130,13 +131,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.guna2CustomGradientPanel4.SuspendLayout();
+            this.pnlLowStock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
-            this.guna2CustomGradientPanel3.SuspendLayout();
+            this.pnlOutStock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            this.guna2CustomGradientPanel2.SuspendLayout();
+            this.pnlInStock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            this.guna2CustomGradientPanel1.SuspendLayout();
+            this.pnlTotalProducts.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
             this.guna2CustomGradientPanel5.SuspendLayout();
@@ -545,19 +546,19 @@
             this.label17.TabIndex = 50;
             this.label17.Text = "INVENTORY";
             // 
-            // guna2CustomGradientPanel4
+            // pnlLowStock
             // 
-            this.guna2CustomGradientPanel4.BorderRadius = 5;
-            this.guna2CustomGradientPanel4.BorderThickness = 5;
-            this.guna2CustomGradientPanel4.Controls.Add(this.label18);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label19);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label20);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2CirclePictureBox4);
-            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(963, 80);
-            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel4.TabIndex = 100;
+            this.pnlLowStock.BorderRadius = 5;
+            this.pnlLowStock.BorderThickness = 5;
+            this.pnlLowStock.Controls.Add(this.label18);
+            this.pnlLowStock.Controls.Add(this.label19);
+            this.pnlLowStock.Controls.Add(this.label20);
+            this.pnlLowStock.Controls.Add(this.guna2CirclePictureBox4);
+            this.pnlLowStock.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.pnlLowStock.Location = new System.Drawing.Point(963, 80);
+            this.pnlLowStock.Name = "pnlLowStock";
+            this.pnlLowStock.Size = new System.Drawing.Size(200, 78);
+            this.pnlLowStock.TabIndex = 100;
             // 
             // label18
             // 
@@ -609,19 +610,19 @@
             this.guna2CirclePictureBox4.TabStop = false;
             this.guna2CirclePictureBox4.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel3
+            // pnlOutStock
             // 
-            this.guna2CustomGradientPanel3.BorderRadius = 5;
-            this.guna2CustomGradientPanel3.BorderThickness = 5;
-            this.guna2CustomGradientPanel3.Controls.Add(this.label12);
-            this.guna2CustomGradientPanel3.Controls.Add(this.label13);
-            this.guna2CustomGradientPanel3.Controls.Add(this.label14);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2CirclePictureBox3);
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(197)))));
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(742, 80);
-            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel3.TabIndex = 99;
+            this.pnlOutStock.BorderRadius = 5;
+            this.pnlOutStock.BorderThickness = 5;
+            this.pnlOutStock.Controls.Add(this.label12);
+            this.pnlOutStock.Controls.Add(this.label13);
+            this.pnlOutStock.Controls.Add(this.label14);
+            this.pnlOutStock.Controls.Add(this.guna2CirclePictureBox3);
+            this.pnlOutStock.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(197)))));
+            this.pnlOutStock.Location = new System.Drawing.Point(742, 80);
+            this.pnlOutStock.Name = "pnlOutStock";
+            this.pnlOutStock.Size = new System.Drawing.Size(200, 78);
+            this.pnlOutStock.TabIndex = 99;
             // 
             // label12
             // 
@@ -673,19 +674,19 @@
             this.guna2CirclePictureBox3.TabStop = false;
             this.guna2CirclePictureBox3.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel2
+            // pnlInStock
             // 
-            this.guna2CustomGradientPanel2.BorderRadius = 5;
-            this.guna2CustomGradientPanel2.BorderThickness = 5;
-            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label10);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label11);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2CirclePictureBox2);
-            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.LightBlue;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(521, 80);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel2.TabIndex = 98;
+            this.pnlInStock.BorderRadius = 5;
+            this.pnlInStock.BorderThickness = 5;
+            this.pnlInStock.Controls.Add(this.label9);
+            this.pnlInStock.Controls.Add(this.label10);
+            this.pnlInStock.Controls.Add(this.label11);
+            this.pnlInStock.Controls.Add(this.guna2CirclePictureBox2);
+            this.pnlInStock.FillColor2 = System.Drawing.Color.LightBlue;
+            this.pnlInStock.Location = new System.Drawing.Point(521, 80);
+            this.pnlInStock.Name = "pnlInStock";
+            this.pnlInStock.Size = new System.Drawing.Size(200, 78);
+            this.pnlInStock.TabIndex = 98;
             // 
             // label9
             // 
@@ -737,19 +738,19 @@
             this.guna2CirclePictureBox2.TabStop = false;
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel1
+            // pnlTotalProducts
             // 
-            this.guna2CustomGradientPanel1.BorderRadius = 5;
-            this.guna2CustomGradientPanel1.BorderThickness = 5;
-            this.guna2CustomGradientPanel1.Controls.Add(this.label8);
-            this.guna2CustomGradientPanel1.Controls.Add(this.label4);
-            this.guna2CustomGradientPanel1.Controls.Add(this.label15);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.LightGreen;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(300, 80);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel1.TabIndex = 97;
+            this.pnlTotalProducts.BorderRadius = 5;
+            this.pnlTotalProducts.BorderThickness = 5;
+            this.pnlTotalProducts.Controls.Add(this.label8);
+            this.pnlTotalProducts.Controls.Add(this.label4);
+            this.pnlTotalProducts.Controls.Add(this.label15);
+            this.pnlTotalProducts.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnlTotalProducts.FillColor2 = System.Drawing.Color.LightGreen;
+            this.pnlTotalProducts.Location = new System.Drawing.Point(300, 80);
+            this.pnlTotalProducts.Name = "pnlTotalProducts";
+            this.pnlTotalProducts.Size = new System.Drawing.Size(200, 78);
+            this.pnlTotalProducts.TabIndex = 97;
             // 
             // label8
             // 
@@ -832,7 +833,7 @@
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.ItemHeight = 18;
             this.guna2ComboBox1.Location = new System.Drawing.Point(142, 43);
@@ -865,35 +866,35 @@
             this.label23.TabIndex = 106;
             this.label23.Text = "Quantity";
             // 
-            // guna2Button1
+            // txtAddStock
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(107, 132);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(121, 27);
-            this.guna2Button1.TabIndex = 108;
-            this.guna2Button1.Text = "✚ Add Stock";
+            this.txtAddStock.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.txtAddStock.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.txtAddStock.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.txtAddStock.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.txtAddStock.FillColor = System.Drawing.Color.Green;
+            this.txtAddStock.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddStock.ForeColor = System.Drawing.Color.White;
+            this.txtAddStock.Location = new System.Drawing.Point(107, 132);
+            this.txtAddStock.Name = "txtAddStock";
+            this.txtAddStock.Size = new System.Drawing.Size(121, 27);
+            this.txtAddStock.TabIndex = 108;
+            this.txtAddStock.Text = "✚ Add Stock";
             // 
-            // guna2Button2
+            // txtDeductStock
             // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Red;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(249, 132);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(121, 27);
-            this.guna2Button2.TabIndex = 109;
-            this.guna2Button2.Text = "– Deduct Stock";
+            this.txtDeductStock.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.txtDeductStock.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.txtDeductStock.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.txtDeductStock.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.txtDeductStock.FillColor = System.Drawing.Color.Red;
+            this.txtDeductStock.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDeductStock.ForeColor = System.Drawing.Color.White;
+            this.txtDeductStock.Location = new System.Drawing.Point(249, 132);
+            this.txtDeductStock.Name = "txtDeductStock";
+            this.txtDeductStock.Size = new System.Drawing.Size(121, 27);
+            this.txtDeductStock.TabIndex = 109;
+            this.txtDeductStock.Text = "– Deduct Stock";
             // 
             // lblCurrentStock
             // 
@@ -911,7 +912,7 @@
             // 
             this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
             this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown1.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.guna2NumericUpDown1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NumericUpDown1.Location = new System.Drawing.Point(142, 102);
             this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
             this.guna2NumericUpDown1.Size = new System.Drawing.Size(230, 24);
@@ -922,7 +923,7 @@
             // guna2CustomGradientPanel5
             // 
             this.guna2CustomGradientPanel5.Controls.Add(this.label37);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2Button3);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtRemove);
             this.guna2CustomGradientPanel5.Controls.Add(this.guna2CustomGradientPanel6);
             this.guna2CustomGradientPanel5.Controls.Add(this.guna2ComboBox2);
             this.guna2CustomGradientPanel5.Controls.Add(this.label25);
@@ -934,9 +935,9 @@
             this.guna2CustomGradientPanel5.Controls.Add(this.label22);
             this.guna2CustomGradientPanel5.Controls.Add(this.guna2NumericUpDown1);
             this.guna2CustomGradientPanel5.Controls.Add(this.label23);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtAddStock);
             this.guna2CustomGradientPanel5.Controls.Add(this.lblCurrentStock);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2Button2);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtDeductStock);
             this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(295, 161);
             this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
             this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(868, 178);
@@ -954,20 +955,20 @@
             this.label37.TabIndex = 117;
             this.label37.Text = "ADD STOCK";
             // 
-            // guna2Button3
+            // txtRemove
             // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Red;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(601, 132);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(121, 27);
-            this.guna2Button3.TabIndex = 116;
-            this.guna2Button3.Text = "– Deduct Stock";
+            this.txtRemove.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.txtRemove.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.txtRemove.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.txtRemove.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.txtRemove.FillColor = System.Drawing.Color.Red;
+            this.txtRemove.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRemove.ForeColor = System.Drawing.Color.White;
+            this.txtRemove.Location = new System.Drawing.Point(601, 132);
+            this.txtRemove.Name = "txtRemove";
+            this.txtRemove.Size = new System.Drawing.Size(121, 27);
+            this.txtRemove.TabIndex = 116;
+            this.txtRemove.Text = "– Remove";
             // 
             // guna2CustomGradientPanel6
             // 
@@ -1028,7 +1029,7 @@
             this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.guna2ComboBox2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 18;
             this.guna2ComboBox2.Location = new System.Drawing.Point(601, 43);
@@ -1071,6 +1072,7 @@
             // 
             // guna2CustomGradientPanel7
             // 
+            this.guna2CustomGradientPanel7.Controls.Add(this.txtAdd);
             this.guna2CustomGradientPanel7.Controls.Add(this.guna2ComboBox4);
             this.guna2CustomGradientPanel7.Controls.Add(this.guna2TextBox1);
             this.guna2CustomGradientPanel7.Controls.Add(this.label32);
@@ -1090,7 +1092,7 @@
             this.guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox4.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.guna2ComboBox4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox4.ItemHeight = 18;
             this.guna2ComboBox4.Location = new System.Drawing.Point(352, 28);
@@ -1107,7 +1109,7 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(107, 28);
             this.guna2TextBox1.Name = "guna2TextBox1";
@@ -1156,7 +1158,7 @@
             // 
             this.guna2NumericUpDown2.BackColor = System.Drawing.Color.Transparent;
             this.guna2NumericUpDown2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown2.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.guna2NumericUpDown2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NumericUpDown2.Location = new System.Drawing.Point(601, 28);
             this.guna2NumericUpDown2.Name = "guna2NumericUpDown2";
             this.guna2NumericUpDown2.Size = new System.Drawing.Size(157, 24);
@@ -1193,11 +1195,11 @@
             this.btnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSearch.FillColor = System.Drawing.Color.ForestGreen;
-            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSearch.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.Location = new System.Drawing.Point(787, 6);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(64, 20);
+            this.btnSearch.Size = new System.Drawing.Size(77, 20);
             this.btnSearch.TabIndex = 106;
             this.btnSearch.Text = "Search";
             // 
@@ -1210,7 +1212,7 @@
             this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSearch.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.Location = new System.Drawing.Point(606, 6);
             this.txtSearch.Name = "txtSearch";
@@ -1289,6 +1291,21 @@
             this.label28.TabIndex = 101;
             this.label28.Text = "INVENTORY LIST";
             // 
+            // txtAdd
+            // 
+            this.txtAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.txtAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.txtAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.txtAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.txtAdd.FillColor = System.Drawing.Color.Green;
+            this.txtAdd.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdd.ForeColor = System.Drawing.Color.White;
+            this.txtAdd.Location = new System.Drawing.Point(764, 25);
+            this.txtAdd.Name = "txtAdd";
+            this.txtAdd.Size = new System.Drawing.Size(100, 27);
+            this.txtAdd.TabIndex = 118;
+            this.txtAdd.Text = "✚ Add";
+            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1297,12 +1314,12 @@
             this.ClientSize = new System.Drawing.Size(1184, 611);
             this.Controls.Add(this.guna2CustomGradientPanel8);
             this.Controls.Add(this.guna2CustomGradientPanel7);
-            this.Controls.Add(this.guna2CustomGradientPanel4);
+            this.Controls.Add(this.pnlLowStock);
             this.Controls.Add(this.guna2CustomGradientPanel5);
-            this.Controls.Add(this.guna2CustomGradientPanel2);
+            this.Controls.Add(this.pnlInStock);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Controls.Add(this.guna2CustomGradientPanel3);
+            this.Controls.Add(this.pnlTotalProducts);
+            this.Controls.Add(this.pnlOutStock);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
@@ -1328,17 +1345,17 @@
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.guna2CustomGradientPanel4.ResumeLayout(false);
-            this.guna2CustomGradientPanel4.PerformLayout();
+            this.pnlLowStock.ResumeLayout(false);
+            this.pnlLowStock.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
-            this.guna2CustomGradientPanel3.ResumeLayout(false);
-            this.guna2CustomGradientPanel3.PerformLayout();
+            this.pnlOutStock.ResumeLayout(false);
+            this.pnlOutStock.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            this.guna2CustomGradientPanel2.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.PerformLayout();
+            this.pnlInStock.ResumeLayout(false);
+            this.pnlInStock.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.PerformLayout();
+            this.pnlTotalProducts.ResumeLayout(false);
+            this.pnlTotalProducts.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
             this.guna2CustomGradientPanel5.ResumeLayout(false);
@@ -1389,22 +1406,22 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label17;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlLowStock;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlOutStock;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlInStock;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlTotalProducts;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label15;
@@ -1414,14 +1431,14 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button txtDeductStock;
+        private Guna.UI2.WinForms.Guna2Button txtAddStock;
         private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown1;
         private System.Windows.Forms.Label lblCurrentStock;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel5;
         private System.Windows.Forms.Label label24;
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button txtRemove;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel6;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
@@ -1446,5 +1463,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn CURRENTSTOCK;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
+        private Guna.UI2.WinForms.Guna2Button txtAdd;
     }
 }

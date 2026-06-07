@@ -59,10 +59,8 @@ namespace FinalProject
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnShowPassword = new System.Windows.Forms.Button();
             this.btnDeleteEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
@@ -397,7 +395,6 @@ namespace FinalProject
             this.guna2GradientPanel2.Controls.Add(this.guna2DateTimePicker1);
             this.guna2GradientPanel2.Controls.Add(this.pictureBox11);
             this.guna2GradientPanel2.Controls.Add(this.label15);
-            this.guna2GradientPanel2.Controls.Add(this.label16);
             this.guna2GradientPanel2.Controls.Add(this.label17);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -446,34 +443,21 @@ namespace FinalProject
             this.label15.TabIndex = 57;
             this.label15.Text = "Customer";
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(10, 34);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(131, 16);
-            this.label16.TabIndex = 56;
-            this.label16.Text = "Dashboard > Users";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Tw Cen MT Condensed", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label17.Location = new System.Drawing.Point(3, 1);
+            this.label17.Location = new System.Drawing.Point(3, 12);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(202, 34);
+            this.label17.Size = new System.Drawing.Size(66, 34);
             this.label17.TabIndex = 50;
-            this.label17.Text = "USERS/EMPLOYEES";
+            this.label17.Text = "USER";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.Controls.Add(this.btnShowPassword);
             this.guna2Panel1.Controls.Add(this.btnDeleteEmployee);
             this.guna2Panel1.Controls.Add(this.btnAddEmployee);
             this.guna2Panel1.Controls.Add(this.txtPassword);
@@ -490,18 +474,6 @@ namespace FinalProject
             this.guna2Panel1.Size = new System.Drawing.Size(838, 201);
             this.guna2Panel1.TabIndex = 89;
             // 
-            // btnShowPassword
-            // 
-            this.btnShowPassword.BackColor = System.Drawing.SystemColors.Control;
-            this.btnShowPassword.FlatAppearance.BorderSize = 0;
-            this.btnShowPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShowPassword.Image = ((System.Drawing.Image)(resources.GetObject("btnShowPassword.Image")));
-            this.btnShowPassword.Location = new System.Drawing.Point(800, 79);
-            this.btnShowPassword.Name = "btnShowPassword";
-            this.btnShowPassword.Size = new System.Drawing.Size(25, 23);
-            this.btnShowPassword.TabIndex = 75;
-            this.btnShowPassword.UseVisualStyleBackColor = false;
-            // 
             // btnDeleteEmployee
             // 
             this.btnDeleteEmployee.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -509,7 +481,7 @@ namespace FinalProject
             this.btnDeleteEmployee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDeleteEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDeleteEmployee.FillColor = System.Drawing.Color.Red;
-            this.btnDeleteEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDeleteEmployee.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteEmployee.ForeColor = System.Drawing.Color.White;
             this.btnDeleteEmployee.Location = new System.Drawing.Point(221, 147);
             this.btnDeleteEmployee.Name = "btnDeleteEmployee";
@@ -525,7 +497,7 @@ namespace FinalProject
             this.btnAddEmployee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAddEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddEmployee.FillColor = System.Drawing.Color.DarkGreen;
-            this.btnAddEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAddEmployee.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddEmployee.ForeColor = System.Drawing.Color.White;
             this.btnAddEmployee.Location = new System.Drawing.Point(20, 147);
             this.btnAddEmployee.Name = "btnAddEmployee";
@@ -543,7 +515,7 @@ namespace FinalProject
             this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPassword.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Location = new System.Drawing.Point(630, 76);
             this.txtPassword.Name = "txtPassword";
@@ -556,11 +528,11 @@ namespace FinalProject
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(626, 58);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 15);
+            this.label9.Size = new System.Drawing.Size(69, 16);
             this.label9.TabIndex = 71;
             this.label9.Text = "Password";
             // 
@@ -573,7 +545,7 @@ namespace FinalProject
             this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUsername.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Location = new System.Drawing.Point(427, 76);
             this.txtUsername.Name = "txtUsername";
@@ -586,11 +558,11 @@ namespace FinalProject
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(423, 58);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 15);
+            this.label8.Size = new System.Drawing.Size(71, 16);
             this.label8.TabIndex = 69;
             this.label8.Text = "Username";
             // 
@@ -603,7 +575,7 @@ namespace FinalProject
             this.txtFirstName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtFirstName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtFirstName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtFirstName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFirstName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFirstName.Location = new System.Drawing.Point(217, 76);
             this.txtFirstName.Name = "txtFirstName";
@@ -616,11 +588,11 @@ namespace FinalProject
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(213, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 15);
+            this.label4.Size = new System.Drawing.Size(77, 16);
             this.label4.TabIndex = 67;
             this.label4.Text = "First Name";
             // 
@@ -633,7 +605,7 @@ namespace FinalProject
             this.txtLastName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtLastName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtLastName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtLastName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLastName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtLastName.Location = new System.Drawing.Point(16, 76);
             this.txtLastName.Name = "txtLastName";
@@ -646,11 +618,11 @@ namespace FinalProject
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(12, 58);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
+            this.label3.Size = new System.Drawing.Size(76, 16);
             this.label3.TabIndex = 65;
             this.label3.Text = "Last Name";
             // 
@@ -726,7 +698,6 @@ namespace FinalProject
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label label2;
@@ -740,6 +711,5 @@ namespace FinalProject
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2Button btnDeleteEmployee;
         private Guna.UI2.WinForms.Guna2Button btnAddEmployee;
-        private System.Windows.Forms.Button btnShowPassword;
     }
 }

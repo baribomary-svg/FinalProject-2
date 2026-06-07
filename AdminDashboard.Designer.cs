@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.dgvStockProducts = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,22 +42,22 @@
             this.Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pnlTotalCustomers = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.txtTotalProducts = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.txtTotalSales = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.txtTotalOrders = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -90,17 +90,16 @@
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStockProducts)).BeginInit();
-            this.guna2CustomGradientPanel1.SuspendLayout();
+            this.pnlTotalCustomers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            this.guna2CustomGradientPanel2.SuspendLayout();
+            this.txtTotalProducts.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            this.guna2CustomGradientPanel3.SuspendLayout();
+            this.txtTotalSales.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            this.guna2CustomGradientPanel4.SuspendLayout();
+            this.txtTotalOrders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -127,30 +126,30 @@
             // 
             // dgvStockProducts
             // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
-            this.dgvStockProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvStockProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvStockProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvStockProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvStockProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStockProducts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Product,
             this.Category,
             this.Stock,
             this.Status});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvStockProducts.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvStockProducts.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvStockProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvStockProducts.Location = new System.Drawing.Point(17, 33);
             this.dgvStockProducts.Name = "dgvStockProducts";
@@ -195,19 +194,19 @@
             this.label1.TabIndex = 64;
             this.label1.Text = "Low Stock Products";
             // 
-            // guna2CustomGradientPanel1
+            // pnlTotalCustomers
             // 
-            this.guna2CustomGradientPanel1.BorderRadius = 5;
-            this.guna2CustomGradientPanel1.BorderThickness = 5;
-            this.guna2CustomGradientPanel1.Controls.Add(this.label8);
-            this.guna2CustomGradientPanel1.Controls.Add(this.label4);
-            this.guna2CustomGradientPanel1.Controls.Add(this.label2);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.LightGreen;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(293, 65);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(208, 78);
-            this.guna2CustomGradientPanel1.TabIndex = 93;
+            this.pnlTotalCustomers.BorderRadius = 5;
+            this.pnlTotalCustomers.BorderThickness = 5;
+            this.pnlTotalCustomers.Controls.Add(this.label8);
+            this.pnlTotalCustomers.Controls.Add(this.label4);
+            this.pnlTotalCustomers.Controls.Add(this.label2);
+            this.pnlTotalCustomers.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnlTotalCustomers.FillColor2 = System.Drawing.Color.LightGreen;
+            this.pnlTotalCustomers.Location = new System.Drawing.Point(293, 65);
+            this.pnlTotalCustomers.Name = "pnlTotalCustomers";
+            this.pnlTotalCustomers.Size = new System.Drawing.Size(208, 78);
+            this.pnlTotalCustomers.TabIndex = 93;
             // 
             // label8
             // 
@@ -259,19 +258,19 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel2
+            // txtTotalProducts
             // 
-            this.guna2CustomGradientPanel2.BorderRadius = 5;
-            this.guna2CustomGradientPanel2.BorderThickness = 5;
-            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label10);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label11);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2CirclePictureBox2);
-            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.LightBlue;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(516, 65);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel2.TabIndex = 94;
+            this.txtTotalProducts.BorderRadius = 5;
+            this.txtTotalProducts.BorderThickness = 5;
+            this.txtTotalProducts.Controls.Add(this.label9);
+            this.txtTotalProducts.Controls.Add(this.label10);
+            this.txtTotalProducts.Controls.Add(this.label11);
+            this.txtTotalProducts.Controls.Add(this.guna2CirclePictureBox2);
+            this.txtTotalProducts.FillColor2 = System.Drawing.Color.LightBlue;
+            this.txtTotalProducts.Location = new System.Drawing.Point(516, 65);
+            this.txtTotalProducts.Name = "txtTotalProducts";
+            this.txtTotalProducts.Size = new System.Drawing.Size(200, 78);
+            this.txtTotalProducts.TabIndex = 94;
             // 
             // label9
             // 
@@ -323,19 +322,19 @@
             this.guna2CirclePictureBox2.TabStop = false;
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel3
+            // txtTotalSales
             // 
-            this.guna2CustomGradientPanel3.BorderRadius = 5;
-            this.guna2CustomGradientPanel3.BorderThickness = 5;
-            this.guna2CustomGradientPanel3.Controls.Add(this.label12);
-            this.guna2CustomGradientPanel3.Controls.Add(this.label13);
-            this.guna2CustomGradientPanel3.Controls.Add(this.label14);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2CirclePictureBox3);
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(197)))));
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(734, 65);
-            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel3.TabIndex = 95;
+            this.txtTotalSales.BorderRadius = 5;
+            this.txtTotalSales.BorderThickness = 5;
+            this.txtTotalSales.Controls.Add(this.label12);
+            this.txtTotalSales.Controls.Add(this.label13);
+            this.txtTotalSales.Controls.Add(this.label14);
+            this.txtTotalSales.Controls.Add(this.guna2CirclePictureBox3);
+            this.txtTotalSales.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(197)))));
+            this.txtTotalSales.Location = new System.Drawing.Point(734, 65);
+            this.txtTotalSales.Name = "txtTotalSales";
+            this.txtTotalSales.Size = new System.Drawing.Size(200, 78);
+            this.txtTotalSales.TabIndex = 95;
             // 
             // label12
             // 
@@ -387,19 +386,19 @@
             this.guna2CirclePictureBox3.TabStop = false;
             this.guna2CirclePictureBox3.UseTransparentBackground = true;
             // 
-            // guna2CustomGradientPanel4
+            // txtTotalOrders
             // 
-            this.guna2CustomGradientPanel4.BorderRadius = 5;
-            this.guna2CustomGradientPanel4.BorderThickness = 5;
-            this.guna2CustomGradientPanel4.Controls.Add(this.label18);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label19);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label20);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2CirclePictureBox4);
-            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(189)))), ((int)(((byte)(240)))));
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(947, 65);
-            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(200, 78);
-            this.guna2CustomGradientPanel4.TabIndex = 96;
+            this.txtTotalOrders.BorderRadius = 5;
+            this.txtTotalOrders.BorderThickness = 5;
+            this.txtTotalOrders.Controls.Add(this.label18);
+            this.txtTotalOrders.Controls.Add(this.label19);
+            this.txtTotalOrders.Controls.Add(this.label20);
+            this.txtTotalOrders.Controls.Add(this.guna2CirclePictureBox4);
+            this.txtTotalOrders.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(189)))), ((int)(((byte)(240)))));
+            this.txtTotalOrders.Location = new System.Drawing.Point(947, 65);
+            this.txtTotalOrders.Name = "txtTotalOrders";
+            this.txtTotalOrders.Size = new System.Drawing.Size(200, 78);
+            this.txtTotalOrders.TabIndex = 96;
             // 
             // label18
             // 
@@ -462,16 +461,16 @@
             // 
             // chart1
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chart1.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(14, 33);
             this.chart1.Name = "chart1";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chart1.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(823, 143);
             this.chart1.TabIndex = 65;
             this.chart1.Text = "chart1";
@@ -768,7 +767,6 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2DateTimePicker1);
             this.guna2GradientPanel2.Controls.Add(this.pictureBox1);
             this.guna2GradientPanel2.Controls.Add(this.label15);
-            this.guna2GradientPanel2.Controls.Add(this.label16);
             this.guna2GradientPanel2.Controls.Add(this.label17);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -817,25 +815,13 @@
             this.label15.TabIndex = 57;
             this.label15.Text = "Customer";
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(10, 34);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(150, 16);
-            this.label16.TabIndex = 56;
-            this.label16.Text = "Welcome back, Admin";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Tw Cen MT Condensed", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label17.Location = new System.Drawing.Point(3, 1);
+            this.label17.Location = new System.Drawing.Point(6, 12);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(223, 34);
             this.label17.TabIndex = 50;
@@ -849,10 +835,10 @@
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2Panel2);
-            this.Controls.Add(this.guna2CustomGradientPanel4);
-            this.Controls.Add(this.guna2CustomGradientPanel3);
-            this.Controls.Add(this.guna2CustomGradientPanel2);
-            this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.Controls.Add(this.txtTotalOrders);
+            this.Controls.Add(this.txtTotalSales);
+            this.Controls.Add(this.txtTotalProducts);
+            this.Controls.Add(this.pnlTotalCustomers);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -865,17 +851,17 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStockProducts)).EndInit();
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.PerformLayout();
+            this.pnlTotalCustomers.ResumeLayout(false);
+            this.pnlTotalCustomers.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            this.guna2CustomGradientPanel2.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.PerformLayout();
+            this.txtTotalProducts.ResumeLayout(false);
+            this.txtTotalProducts.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            this.guna2CustomGradientPanel3.ResumeLayout(false);
-            this.guna2CustomGradientPanel3.PerformLayout();
+            this.txtTotalSales.ResumeLayout(false);
+            this.txtTotalSales.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            this.guna2CustomGradientPanel4.ResumeLayout(false);
-            this.guna2CustomGradientPanel4.PerformLayout();
+            this.txtTotalOrders.ResumeLayout(false);
+            this.txtTotalOrders.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
@@ -904,22 +890,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Stock;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel pnlTotalCustomers;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel txtTotalProducts;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel txtTotalSales;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel txtTotalOrders;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
@@ -952,7 +938,6 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
     }
 }
