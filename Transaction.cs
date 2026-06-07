@@ -27,5 +27,15 @@ namespace FinalProject
         {
 
         }
+
+        private void guna2DateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Transaction_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

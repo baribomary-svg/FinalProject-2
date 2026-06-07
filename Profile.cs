@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace FinalProject
 {
-    public partial class My_Cart : Form
+    public partial class Profile : Form
     {
-        public My_Cart()
+        public Profile()
         {
             InitializeComponent();
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Profile prof = new Profile();
+            prof.Show();
 
         }
 
-        private void My_Cart_Load(object sender, EventArgs e)
+        private void txtName_TextChanged(object sender, EventArgs e)
         {
 
         }

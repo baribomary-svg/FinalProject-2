@@ -42,11 +42,6 @@ namespace FinalProject
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox9_Click(object sender, EventArgs e)
         {
 
@@ -220,6 +215,11 @@ namespace FinalProject
         }
 
         private void guna2TileButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }
